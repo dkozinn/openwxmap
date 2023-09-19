@@ -17,7 +17,7 @@ import requests
 
 API_KEY = os.environ["WEATHER_API_KEY"]
 
-DEFAULT_CITY = "River Vale"
+DEFAULT_CITY = "New York"
 UNITS = "imperial"
 
 if len(sys.argv)>1:
